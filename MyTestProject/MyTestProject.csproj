@@ -40,6 +40,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Test.aspx" />
+    <Content Include="TestPushCommand.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -56,6 +57,12 @@
     </Compile>
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPushCommand.aspx.cs">
+      <DependentUpon>TestPushCommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPushCommand.aspx.designer.cs">
+      <DependentUpon>TestPushCommand.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
