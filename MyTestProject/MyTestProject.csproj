@@ -41,6 +41,7 @@
     </Content>
     <Content Include="Test.aspx" />
     <Content Include="TestPushCommand.aspx" />
+    <Content Include="TestPushCommandAgain.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -63,6 +64,12 @@
     </Compile>
     <Compile Include="TestPushCommand.aspx.designer.cs">
       <DependentUpon>TestPushCommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPushCommandAgain.aspx.cs">
+      <DependentUpon>TestPushCommandAgain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPushCommandAgain.aspx.designer.cs">
+      <DependentUpon>TestPushCommandAgain.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
